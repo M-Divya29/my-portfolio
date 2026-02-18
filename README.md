@@ -129,6 +129,12 @@ Update `package.json` then deploy:
 
 - Production URL: https://m-divya29.github.io/my-portfolio/
 
+## 🚀 Vercel (Production)
+
+- Production URL: https://my-portfolio-3nrcjcnfr-m-divya29s-projects.vercel.app
+- Alias: https://my-portfolio-m-divya29s-projects.vercel.app
+
+
 ## 🔐 Vercel (Token-based deploy)
 
 If you prefer to deploy from CI or a non-interactive environment, create a Vercel token in the Vercel dashboard and run:
