@@ -125,6 +125,10 @@ Update `package.json` then deploy:
 - Public dev URL (ngrok): https://unbalkingly-postlicentiate-willette.ngrok-free.dev
 - This is an ephemeral tunnel to your local `npm start` server. It will stop when you stop ngrok or your local dev server.
 
+## 🌍 Live (Production) - GitHub Pages
+
+- Production URL: https://m-divya29.github.io/my-portfolio/
+
 ## 🔐 Vercel (Token-based deploy)
 
 If you prefer to deploy from CI or a non-interactive environment, create a Vercel token in the Vercel dashboard and run:
