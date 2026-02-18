@@ -120,6 +120,23 @@ Update `package.json` then deploy:
 
 ## 🎨 Customization
 
+## 🔗 Live (Dev) - Temporary Tunnel
+
+- Public dev URL (ngrok): https://unbalkingly-postlicentiate-willette.ngrok-free.dev
+- This is an ephemeral tunnel to your local `npm start` server. It will stop when you stop ngrok or your local dev server.
+
+## 🔐 Vercel (Token-based deploy)
+
+If you prefer to deploy from CI or a non-interactive environment, create a Vercel token in the Vercel dashboard and run:
+
+```bash
+# one-time: install/vercel login (or create token in dashboard)
+npx vercel --prod --token YOUR_VERCEL_TOKEN
+```
+
+Add the token to GitHub Actions or your CI provider as `VERCEL_TOKEN` for automated deploys.
+
+
 Edit `src/App.js` to update:
 - **Professional Summary** - Modify `professionalSummary` array
 - **Technical Skills** - Update `technicalSkills` object
